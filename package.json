@@ -1,0 +1,19 @@
+{
+  "name": "getdata_lmi-wikipedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinchis/getdata_lmi-wikipedia.git"
+  },
+  "author": "Alin CHIS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinchis/getdata_lmi-wikipedia/issues"
+  },
+  "homepage": "https://github.com/alinchis/getdata_lmi-wikipedia#readme"
+}
