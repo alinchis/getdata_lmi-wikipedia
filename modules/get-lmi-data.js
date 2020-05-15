@@ -62,7 +62,7 @@ function processHtml(countyName, htmlArray) {
     const returnArr = htmlArray.map((item, countyIndex) => {
         const countyArray = [];
         // load data in cheerio object
-        const $ = cheerio.load(item);
+        const $ = cheerio.load(item.replace(/\n/g, ''));
 
         // select table.wikitable
         const tableArray = $('.wikitable')
